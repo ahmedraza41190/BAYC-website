@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    font-family: "Montserrat",sans-serif;
+    caret-color: transparent;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1% 7% ;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+   
+}
+
+.ul-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    font-style: italic;
+    font-size: 0.7vw;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  
+}
+
+.ul-1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.li-a:hover {
+    color: #bfc500;
+}
+
+.s-1 {
+    width: 4%;   
+
+}
+.svg-1 {
+    width: 100%;   
+    height: 100%;
+    fill: #fff;  
+}
+
+.svg-1:hover {
+    fill: #bfc500;
+}
+
+.s-1 {
+    width: 2.4%;   
+
+}
+
+.b-1 img {
+    width: 100%;
+}
+
+.b-2 {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.b2-1 {
+    width: 50%;
+}
+
+.b2-1 h2 {
+font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+.b2-1 p  {
+font-size: 1.3vw;
+align-items: justify;
+}
+
+.b2-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 29%;
+}
+
+.b2-2 img {
+    width: 45%;
+    margin: 2%;
+}
+
+.b-3 h2 { 
+    font-size: 2vw;
+    color: #bfc500;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;     
+}
+.b-3 h3 {
+    font-size: 1.6vw;
+    font-weight: 400;
+    margin: 1% 0    ;
+    padding: 0;
+}
+
+.b-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-4 h4 {
+    width: 50%;
+    font-size: 1.4vw;
+    font-weight: 200;
+}
+
+.b-4 p {
+    width: 30%;
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+.b-5 {
+    background-color:#bfc500 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.b-5 h2 {
+    width: 15%;
+    color: black;
+    font-size: 1.8vw;
+    font-style: italic;
+    
+}
+
+.b-5 p {
+    width: 25%;
+    color: black;
+    font-size: 1.3vw;
+}
+
+.b-5 h3 {
+    width: 15%;
+    background-color: black;
+    color: #bfc500;
+    font-size: 1.6vw;
+    padding: 1% 5%;
+    border-radius: 4%;
+}
+
+.b-5 h3:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+
